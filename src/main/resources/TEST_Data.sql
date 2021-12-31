@@ -1,0 +1,7 @@
+INSERT INTO ROLES VALUES (1 , 'ADMIN');
+INSERT INTO ROLES VALUES (2 , 'USER');
+
+INSERT INTO USERS(user_id , password , username) VALUES(1 , '$2a$12$6kSn7cSi8890EqpkuyjjFekMnCfokCu.25FMz8PSEhSt2Lc/wEuXS
+' , 'user1' );
+
+INSERT INTO USERS_ROLES VALUES (1 , 1);
